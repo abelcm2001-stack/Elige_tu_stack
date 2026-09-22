@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP</title>
+
 </head>
 <body>
 
-    <?php echo $fechaActual = date('d/m/Y');
-          echo $horaActual = date('H:i:s'); ?>
+<header> 
+
+Elige tu stack 
+
+</header>
+
+    <?php $fechaActual = date('d/m/Y');
+          $horaActual = date('H:i:s'); ?>
 
 
     <p> Fecha de hoy:     <?php echo htmlspecialchars($fechaActual); ?> </p>
