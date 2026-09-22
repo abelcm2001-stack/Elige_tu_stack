@@ -21,7 +21,7 @@ Elige tu stack
     <p> Fecha de hoy:     <?php echo htmlspecialchars($fechaActual); ?> </p>
     <p> Hora actualmente: <?php echo htmlspecialchars($horaActual); ?> </p>
 
-    <!-- htmlspecialchars() es una función que convierte caracteres especiales en entidades HTML. -->
+    <!-- htmlspecialchars() es una función que convierte caracteres especiales en entidades HTML y hace que los datos sean seguros para mostrar en la página. -->
 
 </body>
 </html>
